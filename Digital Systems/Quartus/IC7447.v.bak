@@ -1,0 +1,11 @@
+module IC7447(A,B,C,D,R,a,b,c,d,e,f,g);
+input A,B,C,D,R;
+output a,b,c,d,e,f,g;
+assign a= (~A & ~B & ~C & D) | (B & ~D) | (A & C) | ~R;
+assign b= (B & ~C & D) | (B & C & ~D) | (A & C) | ~R;
+assign c= (~B & C & ~D) | (A & B) | ~R;
+assign d= (~B & ~C & D) | (B & ~C & ~D) | (B & C & D) | ~R;
+assign e= (D) | (B & ~C) | ~R;
+assign f= (~A & ~B & D) | (C & D) | (~B & C) | ~R;
+assign g= (~A & ~B & ~C) | (B & C &D) | ~R;
+endmodule

@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Mon Aug 27 15:58:32 2018
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : mini
+Top-level Entity Name : mod24
+Family : Cyclone IV GX
+Total logic elements : 8
+    Total combinational functions : 8
+    Dedicated logic registers : 6
+Total registers : 6
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0
