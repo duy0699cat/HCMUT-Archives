@@ -1,8 +1,0 @@
-module jkflip (Q,J,K,CLK,RST);
-output Q;
-input J,K,CLK,RST;
-wire JK;
-assign JK = (J & ~Q) | (~K & Q);
-//Instantiate D flipflop
-DFF JK1 (Q,JK,CLK,RST);
-endmodule
