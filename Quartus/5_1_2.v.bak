@@ -1,0 +1,10 @@
+module tff (t, clk,clr, pre, q, q');
+output q, q';
+input t, clk,clr, pre;
+
+wire w1, w2;
+nand n1(w1, q', t, clk);
+nand n2(q, pre, w1, q,);
+nand n3(w2, clk, t.q);
+nand n4(q', q, w2, clr);
+endmodule

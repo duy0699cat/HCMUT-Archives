@@ -1,0 +1,67 @@
+# Copyright (C) 2016  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+
+# Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+# File: D:\Data\Quartus\mini\output_files\miniex.csv
+# Generated on: Mon Aug 27 15:24:14 2018
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+J_K,Unknown,PIN_V28,5,B5_N0,,,,,,
+CLK,Unknown,PIN_A15,7,B7_N2,,,,,,
+seg7[6],Unknown,PIN_F14,8,B8_N0,,,,,,
+seg7[4],Unknown,PIN_F16,8,B8_N0,,,,,,
+seg7[3],Unknown,PIN_F11,8,B8_N1,,,,,,
+seg7[2],Unknown,PIN_G11,8,B8_N1,,,,,,
+seg7[0],Unknown,PIN_E15,8,B8_N0,,,,,,
+seg7[1],Unknown,PIN_E12,8,B8_N1,,,,,,
+seg7[5],Unknown,PIN_D16,8,B8_N0,,,,,,
+seg8[0],Unknown,PIN_G14,8,B8_N0,,,,,,
+seg8[1],Unknown,PIN_B13,8,B8_N0,,,,,,
+seg8[2],Unknown,PIN_G13,8,B8_N0,,,,,,
+seg8[3],Unknown,PIN_F12,8,B8_N1,,,,,,
+seg8[4],Unknown,PIN_G12,8,B8_N1,,,,,,
+seg8[5],Unknown,PIN_J9,8,B8_N2,,,,,,
+seg8[6],Unknown,PIN_G10,8,B8_N2,,,,,,
+seg9[0],Unknown,PIN_G8,8,B8_N2,,,,,,
+seg9[1],Unknown,PIN_G7,8,B8_N2,,,,,,
+seg9[2],Unknown,PIN_F7,8,B8_N2,,,,,,
+seg9[3],Unknown,PIN_AG30,5,B5_N2,,,,,,
+seg9[4],Unknown,PIN_F6,8,B8_N2,,,,,,
+seg9[5],Unknown,PIN_F4,8,B8_N2,,,,,,
+seg9[6],Unknown,PIN_F10,8,B8_N2,,,,,,
+seg10[0],Unknown,PIN_D10,8,B8_N2,,,,,,
+seg10[1],Unknown,PIN_D7,8,B8_N1,,,,,,
+seg10[2],Unknown,PIN_E6,8,B8_N2,,,,,,
+seg10[3],Unknown,PIN_E4,8,B8_N2,,,,,,
+seg10[4],Unknown,PIN_E3,8,B8_N2,,,,,,
+seg10[5],Unknown,PIN_D5,8,B8_N2,,,,,,
+seg10[6],Unknown,PIN_D4,8,B8_N1,,,,,,
+seg11[0],Unknown,PIN_A14,8,B8_N0,,,,,,
+seg11[1],Unknown,PIN_A13,8,B8_N0,,,,,,
+seg11[2],Unknown,PIN_C7,8,B8_N2,,,,,,
+seg11[3],Unknown,PIN_C6,8,B8_N1,,,,,,
+seg11[4],Unknown,PIN_C5,8,B8_N1,,,,,,
+seg11[5],Unknown,PIN_C4,8,B8_N1,,,,,,
+seg11[6],Unknown,PIN_C3,8,B8_N2,,,,,,
+seg12[0],Unknown,PIN_D3,8,B8_N2,,,,,,
+seg12[1],Unknown,PIN_A10,8,B8_N0,,,,,,
+seg12[2],Unknown,PIN_A9,8,B8_N1,,,,,,
+seg12[3],Unknown,PIN_A7,8,B8_N1,,,,,,
+seg12[4],Unknown,PIN_A6,8,B8_N1,,,,,,
+seg12[5],Unknown,PIN_A11,8,B8_N0,,,,,,
+seg12[6],Unknown,PIN_B6,8,B8_N1,,,,,,
+RESET,Unknown,PIN_U30,5,B5_N0,,,,,,

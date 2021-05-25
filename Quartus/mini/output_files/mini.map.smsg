@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at conut.v(6): always construct contains both blocking and non-blocking assignments File: D:/Data/Quartus/mini/conut.v Line: 6
