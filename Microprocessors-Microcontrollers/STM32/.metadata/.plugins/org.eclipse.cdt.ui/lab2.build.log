@@ -1,0 +1,28 @@
+14:17:33 **** Incremental Build of configuration Debug for project lab2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32H743xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:117:10: warning: unused variable 'timer_val' [-Wunused-variable]
+ uint16_t timer_val;
+          ^~~~~~~~~
+../Core/Src/main.c: In function 'readBtn':
+../Core/Src/main.c:482:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+arm-none-eabi-gcc -o "lab2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\HWs\STM32\lab2\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab2.elf
+ 
+arm-none-eabi-objdump -h -S  lab2.elf  > "lab2.list"
+arm-none-eabi-objcopy  -O binary  lab2.elf  "lab2.bin"
+arm-none-eabi-size   lab2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25856	    216	   3008	  29080	   7198	lab2.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab2.bin
+ 
+Finished building: lab2.list
+ 
+
+14:17:35 Build Finished. 0 errors, 2 warnings. (took 2s.706ms)
+

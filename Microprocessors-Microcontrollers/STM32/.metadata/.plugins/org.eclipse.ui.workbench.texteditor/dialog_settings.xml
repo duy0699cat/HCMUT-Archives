@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="TIME_INTER"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="TIME_INTER"/>
+			<item value="htim"/>
+			<item value="firstReadPC13"/>
+			<item value="timee"/>
+			<item value="LD3"/>
+			<item value="button"/>
+			<item value="htim16"/>
+			<item value="DELAY"/>
+			<item value="HAL_TIM_Base_Start"/>
+			<item value="base_start"/>
+			<item value="CODE BEGIN 2"/>
+			<item value="16"/>
+			<item value="GPIOB"/>
+			<item value="begin 4"/>
+			<item value="USER_Btn"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="9"/>
+		<item key="DIALOG_Y_ORIGIN" value="191"/>
+		<item key="DIALOG_WIDTH" value="370"/>
+		<item key="DIALOG_HEIGHT" value="514"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.8|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

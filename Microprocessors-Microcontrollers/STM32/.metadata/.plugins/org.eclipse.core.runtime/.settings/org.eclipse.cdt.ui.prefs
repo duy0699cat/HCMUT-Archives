@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+semanticHighlighting.macroSubstitution.color=0,0,160
+semanticHighlighting.macroSubstitution.enabled=true
+semanticHighlighting.macroSubstitution.italic=true
+semanticHighlighting.overloadedOperator.color=255,128,0
+semanticHighlighting.staticField.bold=true
+semanticHighlighting.udlSuffix.enabled=true
+sourceHoverBackgroundColor=47,47,47
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
