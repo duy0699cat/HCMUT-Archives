@@ -1,33 +1,28 @@
 import random
-import sys
 import time
-
+import  sys
 from Adafruit_IO import MQTTClient
 
 AIO_FEED_ID = "temp"
 AIO_USERNAME = "duy_ngotu"
-AIO_KEY = "aio_OxDj63Gh0YIEX8Sg6dYxdR9lKr9F"
+AIO_KEY = "aio_rQHF85iqWjQDhZCe4qXj7ZOb54N9"
 
 
-def connected(client):
+def  connected(client):
     print("Ket noi thanh cong...")
     client.subscribe(AIO_FEED_ID)
 
-
-def subscribe(client, userdata, mid, granted_qos):
+def  subscribe(client , userdata , mid , granted_qos):
     print("Subscribe thanh cong...")
 
-
-def disconnected(client):
+def  disconnected(client):
     print("Ngat ket noi...")
-    sys.exit(1)
+    sys.exit (1)
 
-
-def message(client, feed_id, payload):
+def  message(client , feed_id , payload):
     print("Nhan du lieu: " + payload)
 
-
-client = MQTTClient(AIO_USERNAME, AIO_KEY)
+client = MQTTClient(AIO_USERNAME , AIO_KEY)
 client.on_connect = connected
 client.on_disconnect = disconnected
 client.on_message = message
@@ -38,5 +33,5 @@ client.loop_background()
 while True:
     value = random.randint(0, 100)
     print("Cap nhat:", value)
-    client.publish("temp", value)
-    time.sleep(20)
+    client.publish("bbc-temp", value)
+    time.sleep(15)
